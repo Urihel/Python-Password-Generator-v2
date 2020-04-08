@@ -22,16 +22,5 @@ class PasswordGenerator:
               str(characters[self.randNum5])+str(characters[self.randNum6])+str(characters[self.randNum7])+str(characters[self.randNum8]))
 
 
-
-
-
-
-
-
-
-
-
-
-
 pg = PasswordGenerator(random.randint(0,74),random.randint(0,74),random.randint(0,74),random.randint(0,74),random.randint(0,74),random.randint(0,74),random.randint(0,74),random.randint(0,74))
 pg.createPassword()
